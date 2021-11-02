@@ -1,43 +1,46 @@
-# mdjs component example
+# print('Hello World!')
 
-> This is an example for a component - also see [mdjs basics](https://webcomponents.dev/edit/tS7JYfymt6yeshma8Gn1)
+> This is my GitHub page. There are many like it, but this one is mine.
 
-This example loads the web component and direclty shows it
-
-```js script
-import "./my-card.js";
-import { html } from "lit-html";
+```bash
+if [[ -f I_LOVE_PROGRAMMING.txt ]]; then
+  echo 'Never stop learning!'
+else
+  echo 'Hope it will never come to that'
+fi
 ```
 
-<my-card header="from attribute"></my-card>
+### Where is a list[] of $things I love to explore()
 
-## Show it with properties
-
-Rendering via a template function with lit-html allows to use for example properties.
-
-```js story
-const headlineText = "Headline Text";
-export const myCard = () => html`
-  <my-card .header=${headlineText}>Main content text</my-card>
-`;
+```js
+{
+    'projectEuler': true,
+    'picoCTF{tru3_lov3}': true,
+    'pythonChallenge': true,
+    'sleepAt($desktop)': false,
+}
 ```
 
-## Show it within a frame
-
-Show it within a frame and
-
-```js preview-story
-export const cardWithFrame = () => html`
-  <my-card .header=${"My Headline Nr: " + 2 * 2}>Main content text</my-card>
-`;
+### And more... 
+```python
+let myInterests = [...myOtherInterests];
+myInterests.push('Computer Science')
 ```
 
-## Have a component with a fixed headlineText
+### ADVICE: 
+Please don't try to 
+```python
+import antigravity
 
-You can provide a header as a property or attribute.
+firstItemToTry = medicineCabinetStock.pop() 
 
-```js preview-story
-export const myFixedCard = () => html`
-  <my-card header="Fixed Header">Main content text</my-card>
-`;
+triedItems = VerySpecialBinaryTree()
+triedItems.sample(firstItemToTry)
+
+for item in medicineCabinetStock:
+     triedItems.sample(item)
+      
 ```
+
+Sample everything in the medicine cabinet for comparison
+
