@@ -32,15 +32,7 @@ Please don't try to
 ```python
 import antigravity
 
-firstItemToTry = medicineCabinetStock.pop() 
-
-triedItems = VerySpecialBinaryTree()
-triedItems.sample(firstItemToTry)
-
 for item in medicineCabinetStock:
      triedItems.sample(item)
-      
+print('Sample everything in the medicine cabinet for comparison')
 ```
-
-Sample everything in the medicine cabinet for comparison
-
