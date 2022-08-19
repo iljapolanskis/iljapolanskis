@@ -26,13 +26,3 @@ fi
 let myInterests = [...myOtherInterests];
 myInterests.push('Computer Science')
 ```
-
-### ADVICE: 
-Please don't try to 
-```python
-import antigravity
-
-for item in medicineCabinetStock:
-     triedItems.sample(item)
-print('Sample everything in the medicine cabinet for comparison')
-```
